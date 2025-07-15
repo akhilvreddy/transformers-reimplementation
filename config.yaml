@@ -1,0 +1,30 @@
+# architecture
+d_model: 512
+num_heads: 8
+num_layers: 6
+dim_ff: 2048
+dropout: 0.1
+
+# vocabulary
+vocab_size: 65  # will be overwritten with dataset.vocab_size in code
+pad_idx: null
+
+# training hyperparameters
+batch_size: 64
+num_epochs: 20
+learning_rate: 3e-4
+warmup_steps: 4000
+max_seq_len: 128
+label_smoothing: 0.1
+
+# optimization
+betas: [0.9, 0.98]
+eps: 1e-9
+weight_decay: 0.0
+gradient_clip: 1.0
+
+# paths (going to save logging stuff at root)
+train_data: data/shakespeare.txt
+val_data: null
+save_dir: checkpoints/
+log_dir: logs/
