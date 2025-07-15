@@ -1,5 +1,7 @@
 .venv/
 .DS_Store
+inference.py
+train.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
