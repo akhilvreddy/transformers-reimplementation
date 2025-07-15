@@ -1,6 +1,6 @@
 # Shakespeare Transformer — Decoder-Only Transformer from Scratch (just like ChatGPT)
 
-This project implements the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) architecture **from scratch** in PyTorch — no high-level abstractions, no Hugging Face, just raw tensors.
+This project implements the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) architecture **from scratch** in PyTorch: no high-level abstractions, no Hugging Face Transformers, just tensors.
 
 I wrote:
 - full decoder-only transformer (GPT-style)
