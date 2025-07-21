@@ -10,11 +10,13 @@ I wrote:
 - custom training loop with batching + MPS acceleration
 - character-level training on Shakespeare's works (no tokenization for simplicity)
 - greedy sampling (argmax decoding, going to add support for beam search / top k soon)
-- generation that actually *speaks* English (1700s english to be fair)
+- generation that actually *speaks* English (1500s english to be fair)
 
 > Output included structured, Shakespearean dialogue with named characters
 
 ![Result after ~2 min of training](./result.png)
+
+**Please check out [`notebook/demo_transformer.ipynb`](https://github.com/akhilvreddy/transformers-reimplementation/blob/main/notebook/demo_transformer.ipynb)** for the end to end model training.
 
 ---
 
